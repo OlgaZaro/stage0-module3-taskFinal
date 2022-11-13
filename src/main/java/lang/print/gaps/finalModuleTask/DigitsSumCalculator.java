@@ -12,13 +12,17 @@ public class DigitsSumCalculator {
         int numberOne;
 
         currentDigit = number % 10;
-        current = number % 100;
-        current = current / 10;
-        sum = sum + currentDigit + current;
-        number = number / 100;
-        numberOne = number % 10;
-        sum = sum + numberOne;
-        number = number / 10;
+        sum = sum + currentDigit;
+        System.out.println(sum);
+        number = number/10;
+        currentDigit = number % 10;
+        sum = sum + currentDigit;
+        System.out.println(sum);
+        number = number/10;
+        currentDigit = number % 10;
+        sum = sum + currentDigit;
+        System.out.println(sum);
+        number = number/10;
         sum = sum + number;
         System.out.println(sum);
     }
