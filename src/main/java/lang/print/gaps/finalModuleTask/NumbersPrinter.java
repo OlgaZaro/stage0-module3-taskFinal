@@ -6,8 +6,8 @@ public class NumbersPrinter {
         numbersPrinter.printIsPositive(15);
     }
     public void printIsPositive(int number) {
-        boolean number1 = (number%2==0)? true:false;
-        System.out.println(number1);
+        boolean numberOne = (number % 2 == 0) ? true : false;
+        System.out.println(numberOne);
 
     }
 }

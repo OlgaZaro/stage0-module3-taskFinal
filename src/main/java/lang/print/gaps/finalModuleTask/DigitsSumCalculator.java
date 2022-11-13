@@ -9,16 +9,16 @@ public class DigitsSumCalculator {
         int sum = 0;
         int currentDigit;
         int current;
-        int number1;
+        int numberOne;
 
-        currentDigit = number%10;
-        current = number%100;
-        current = current/10;
-        sum = sum + currentDigit+current;
-        number = number/100;
-        number1 = number%10;
-        sum = sum + number1;
-        number = number/10;
+        currentDigit = number % 10;
+        current = number % 100;
+        current = current / 10;
+        sum = sum + currentDigit + current;
+        number = number / 100;
+        numberOne = number % 10;
+        sum = sum + numberOne;
+        number = number / 10;
         sum = sum + number;
         System.out.println(sum);
     }

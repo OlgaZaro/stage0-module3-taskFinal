@@ -6,7 +6,7 @@ public class TemperatureConverter {
         temperatureConverter.toFahrenheit(27);
     }
     public void toFahrenheit(int temperatureCelsius){
-        double fahrenheit = temperatureCelsius * 9 / 5.0 + 32;
-        System.out.println(fahrenheit);
+        double toFahrenheit = temperatureCelsius * 9 / 5.0 + 32;
+        System.out.println(toFahrenheit);
     }
 }

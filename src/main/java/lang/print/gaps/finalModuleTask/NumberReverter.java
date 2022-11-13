@@ -7,7 +7,7 @@ public class NumberReverter {
     numberReverter.revert(489);
 }
     public void revert(int number) {
-        number = number + 495;
-        System.out.println(number);
+        int revert = number + 495;
+        System.out.println(revert);
     }
 }
