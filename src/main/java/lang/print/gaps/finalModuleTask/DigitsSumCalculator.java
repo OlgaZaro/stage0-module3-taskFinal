@@ -13,15 +13,12 @@ public class DigitsSumCalculator {
 
         currentDigit = number % 10;
         sum = sum + currentDigit;
-        System.out.println(sum);
         number = number / 10;
         currentDigit = number % 10;
         sum = sum + currentDigit;
-        System.out.println(sum);
         number = number / 10;
         currentDigit = number % 10;
         sum = sum + currentDigit;
-        System.out.println(sum);
         number = number / 10;
         sum = sum + number;
         System.out.println(sum);
