@@ -4,7 +4,6 @@ public class PrintingFalse {
     public static void main(String[] args) {
         int first = 9;
         int second = -17;
-        boolean digit = true;
-        System.out.println((first+second) == 15);
+        System.out.println(first == second);
     }
 }
