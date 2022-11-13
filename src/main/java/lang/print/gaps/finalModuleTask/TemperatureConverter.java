@@ -3,10 +3,9 @@ package lang.print.gaps.finalModuleTask;
 public class TemperatureConverter {
     public static void main(String[] args) {
         TemperatureConverter temperatureConverter = new TemperatureConverter();
-        temperatureConverter.toFahrenheit(27);
+        temperatureConverter.toFahrenheit(33.8);
     }
-    public void toFahrenheit(int temperatureCelsius){
-        double toFahrenheit = temperatureCelsius * 9 / 5.0 + 32;
-        System.out.println(toFahrenheit);
+    public void toFahrenheit(double temperatureCelsius){
+        System.out.println((temperatureCelsius * 1.8) + 32);
     }
 }
