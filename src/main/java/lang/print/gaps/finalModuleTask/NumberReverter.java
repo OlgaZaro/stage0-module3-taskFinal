@@ -7,7 +7,13 @@ public class NumberReverter {
     numberReverter.revert(489);
 }
     public void revert(int number) {
-        int revert = number + 495;
-        System.out.println(revert);
+        int reverse = 0;
+        while(number != 0)
+        {
+            int remainder = number % 10;
+            reverse = reverse * 10 + remainder;
+            number = number/10;
+        }
+        System.out.println(reverse);
     }
 }
